@@ -1,4 +1,3 @@
-# ex_3.py
 import matplotlib.pyplot as plt
 
 def _slice_range(x, y, a=None, b=None):
@@ -37,3 +36,4 @@ def print_xy_table(x, y, digits=3, a=None, b=None):
     row_y = " ".join(s.rjust(w) for s in sy)
     print("X:", row_x)
     print("Y:", row_y)
+
