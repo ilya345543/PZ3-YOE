@@ -1,4 +1,3 @@
-# main.py
 from ex_2 import op_cube, op_square, op_disk_area, op_sin, op_cos, op_abs
 from ex_3 import draw_xy, print_xy_table
 from ex_1 import timeit_deco, trace_deco
@@ -47,3 +46,4 @@ if __name__ == "__main__":
     print(f"\nФункция: {fname}")
     print_xy_table(X, Y, a=min(a, b), b=max(a, b))
     draw_xy(X, Y, a=min(a, b), b=max(a, b), title=fname)
+
