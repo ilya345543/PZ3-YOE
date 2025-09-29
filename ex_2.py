@@ -1,4 +1,3 @@
-# ex_2.py
 import math
 from ex_1 import rescue_nan
 
@@ -25,3 +24,4 @@ def op_cos(x):
 @rescue_nan
 def op_abs(x):
     return abs(x)
+
